@@ -1,8 +1,0 @@
-#!/bin/bash
-git clone --recursive https://github.com/Andersbakken/rtags.git
-mkdir rtagsbuild
-cd rtagsbuild
-cmake -DCMAKE_INSTALL_PREFIX=~/.emacs.d/rtags \
--DRTAGS_NO_BUILD_CLANG=1 -DLIBCLANG_LLVM_CONFIG_EXECUTABLE=/usr/local/opt/llvm/bin/llvm-config -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DLUA_INCLUDE_DIR=/usr/local/Cellar/lua53/5.3.3/include/lua-5.3 -DLUA_LIBRARY=/usr/local/Cellar/lua53/5.3.3/lib/liblua.5.3.3.dylib ../rtags/.
-make -j 10
-make install
