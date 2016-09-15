@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: RhoIs
+# key: riis
+# --
+\bar{\rho}_{I,$1_l$2}

@@ -1,0 +1,18 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+(defun auto-fci-mode ()                                                         
+  (let ((auto-fci-mode-do (lambda ()
+                             (if (> (window-width) fci-rule-column) 
+                                 (fci-mode 1) 
+                               (fci-mode 0)))))
+     (add-hook 'window-configuration-change-hook 'auto-fci-mode-do)))
+auto-fci-mode
+
+auto-fci-mode
+
+auto-fci-mode
+(auto-fci-mode)
+
+
