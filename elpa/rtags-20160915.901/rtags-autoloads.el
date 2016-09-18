@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "rtags" "rtags.el" (22476 59486 0 0))
+;;;### (autoloads nil "rtags" "rtags.el" (22491 38543 0 0))
 ;;; Generated autoloads from rtags.el
 
 (autoload 'rtags-set-periodic-reparse-timeout "rtags" "\
@@ -474,7 +474,7 @@ the user enter missing field manually.
 ;;;***
 
 ;;;### (autoloads nil nil ("company-rtags.el" "flycheck-rtags.el"
-;;;;;;  "rtags-ac.el" "rtags-pkg.el") (22476 59486 133010 0))
+;;;;;;  "rtags-ac.el" "rtags-pkg.el") (22491 38543 56511 0))
 
 ;;;***
 

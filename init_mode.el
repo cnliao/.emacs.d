@@ -123,7 +123,7 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((python . t)))
+;; (org-babel-do-load-languages
+;;  'org-babel-load-languages
+;;  '((python . t)))
 

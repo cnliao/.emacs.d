@@ -53,19 +53,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/cnliao/"
  "/Users/cnliao/.emacs.d/"
+ "/Users/cnliao/Nutstore/sync/ConFiles/osx/.emacs.d/"
+ "/Users/cnliao/.ssh/"
  "/Users/cnliao/.emacs.d/elpa/evil-20160827.1510/"
  "/Users/cnliao/Nutstore/sync/ConFiles/osx/.emacs.d/elpa/evil-20160827.1510/"
  "/Users/cnliao/work/closure/srczm/"
  "/Users/cnliao/work/closure_case3/report/"
  "/Users/cnliao/work/closure/report/"
  "/Users/cnliao/work/closure_case3/"
- "/Users/cnliao/"
  "/Users/cnliao/work/note/"
  "/rsync:hp83:work/frdcpp/src/"
  "/hp83:work/frdcpp/src/"
  "/Users/cnliao/Nutstore/sync/note/"
- "/Users/cnliao/.ssh/"
  "/usr/local/Cellar/mu/0.9.16/share/emacs/site-lisp/mu/mu4e/"
  "/Users/cnliao/src/isync-isync/src/"
  "/Users/cnliao/Downloads/mf1-7/字幕包/"
@@ -94,27 +95,29 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init_env.el"
- "evil-maps.el"
+ ".bashrc"
  "init_mode.el"
+ "init.el"
+ "init_keybinding.el"
+ "init_env.el"
+ ".mbsyncrc"
+ "config"
+ "evil-maps.el"
  "test.py"
  "rpt.tex"
- ".bashrc"
- "all.org"
- "Makefile"
- "config"
- ".msmtprc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/cnliao/.emacs.d/" (22490 18252 0 0) "url/" "tramp" "tmp/" "srecode-map.el" "snippets/" "rtags.build~" "rtags.build" "rtags/" "recentf~" "recentf" "irony/" "init_mu4e.el~" "init_mu4e.el" "init_mode.el~" "init_mode.el" "init_misc.el~" "init_misc.el" "init_mail.el~" "init_mail.el" "init_keybinding.el~" "init_keybinding.el" "init_env.el~" "init_env.el" "init_appearance.el~" "init_appearance.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "ede-projects.el" "auto-save-list/" "../" "./")
+ ("/Users/cnliao/.emacs.d/" (22491 33041 0 0) "url/" "tramp" "tmp/" "srecode-map.el" "snippets/" "rtags.build~" "rtags.build" "rtags/" "recentf~" "recentf" "README.md" "LICENSE" "irony/" "init_mu4e.el~" "init_mu4e.el" "init_mode.el~" "init_mode.el" "init_misc.el~" "init_misc.el" "init_mail.el~" "init_mail.el" "init_keybinding.el~" "init_keybinding.el" "init_env.el~" "init_env.el" "init_appearance.el~" "init_appearance.el" "init.el~" "init.elc~" "init.el" "ido.last~" "ido.last" "elpa/" "ede-projects.el" "auto-save-list/" ".gitignore~" ".gitignore" ".git/" "#recentf#" "../" "./")
 
- ("/Users/cnliao/" (22490 18314 0 0) "work/" "tmp/" "TEST" "src/" "security/" "Public/" "Pictures/" "persist-proxy.sh" "passcnliao.key" "pass/" "Nutstore/" "News/" "Music/" "Movies/" "Mail/" "logfile.postgre" "log" "local/" "Library/" "getmailreindex.sh" "Downloads/" "Documents/" "Desktop/" "Applications/" "anaconda3/" "__pycache__/" ".xmaximarc" ".wget-hsts" ".viminfo" ".Trash/" ".swt/" ".subversion/" ".ssh/" ".sqlite_history" ".spyder2-py3/" ".screenrc" ".sage/" ".rtags/" ".rdm" ".python_history" ".psql_history" ".pgpass" ".oracle_jre_usage/" ".offlineimaprc" ".offlineimappass.gpg" ".offlineimap.pyc" ".offlineimap.py" ".offlineimap/" ".nutstore/" ".notmuch-config~" ".notmuch-config" ".newsrc~" ".newsrc.eld~" ".newsrc.eld" ".newsrc" ".mu/" ".msmtprc" ".msmtp.log" ".mbsyncrc" ".mbsync/" ".matplotlib/" ".Mail.bak/" ".Mail/" ".MacOSX/" ".lldb/" ".lesshst" ".jupyter/" ".ipython/" ".hunspell_en_US" ".gnupg/" ".emacs.d/" ".dummy.gpg" ".DS_Store" ".cron.getmailreindex.log" ".continuum/" ".config/" ".condamanager/" ".CFUserTextEncoding" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".astropy/" ".anaconda/" "../" "./")
+ ("/Users/cnliao/" (22491 33803 0 0) "work/" "tmp/" "TEST" "sync_security.sh~" "sync_security.sh" "src/" "security" "Public/" "Pictures/" "persist-proxy.sh" "passcnliao.key" "pass/" "Nutstore/" "News/" "Music/" "Movies/" "Mail/" "logfile.postgre" "log" "local/" "Library/" "getmailreindex.sh" "Downloads/" "Documents/" "Desktop/" "Applications/" "anaconda3/" "__pycache__/" ".xmaximarc" ".wget-hsts" ".viminfo" ".Trash/" ".swt/" ".subversion/" ".ssh/" ".sqlite_history" ".spyder2-py3/" ".screenrc" ".sage/" ".rtags/" ".rdm" ".python_history" ".psql_history" ".pgpass" ".oracle_jre_usage/" ".offlineimaprc" ".offlineimappass.gpg" ".offlineimap.pyc" ".offlineimap.py" ".offlineimap/" ".nutstore/" ".notmuch-config~" ".notmuch-config" ".newsrc~" ".newsrc.eld~" ".newsrc.eld" ".newsrc" ".mu/" ".msmtprc" ".msmtp.log" ".mbsyncrc" ".mbsync/" ".matplotlib/" ".Mail.bak/" ".Mail/" ".MacOSX/" ".lldb/" ".lesshst" ".jupyter/" ".ipython/" ".hunspell_en_US" ".gnupg/" ".gitconfig" ".emacs.d/" ".dummy.gpg" ".DS_Store" ".cron.getmailreindex.log" ".continuum/" ".config/" ".condamanager/" ".CFUserTextEncoding" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".astropy/" ".anaconda/" "../" "./")
 
- ("/Users/cnliao/src/" (22490 15257 0 0) "rtagsbuild/" "rtags/" "pyOpt-1.2.0.tar.gz" "phantomjs-2.1.1-macosx.zip" "phantomjs-2.1.1-macosx/" "pgFormatter/" "pg_partman/" "pcg-cpp-0.98.zip" "pcg-cpp-0.98/" "nlopt-2.4.2.tar.gz" "nlopt-2.4.2/" "llvm-cfe/" "isync-isync/" "emacs/" "chromedriver" "cedet/" "boost_1_61_0.tar.bz2" "boost_1_61_0/" "../" "./")
+ ("/Users/cnliao/src/" (22491 18663 0 0) "rtagsbuild/" "rtags/" "pyOpt-1.2.0.tar.gz" "phantomjs-2.1.1-macosx.zip" "phantomjs-2.1.1-macosx/" "pgFormatter/" "pg_partman/" "pcg-cpp-0.98.zip" "pcg-cpp-0.98/" "offlineimap/" "nlopt-2.4.2.tar.gz" "nlopt-2.4.2/" "llvm-cfe/" "isync-isync/" "emacsbuild/" "emacs/" "chromedriver" "cedet/" "boost_1_61_0.tar.bz2" "boost_1_61_0/" ".emacs.d/" "../" "./")
 
- ("/Users/cnliao/src/emacs/" (22490 17171 0 0) "test/" "src/" "README" "oldXMenu/" "nt/" "nextstep/" "msdos/" "modules/" "Makefile.in" "Makefile" "make-dist" "m4/" "lwlib/" "lisp/" "lib-src/" "lib/" "leim/" "INSTALL.REPO" "INSTALL" "info/" "GNUmakefile" "etc/" "doc/" "COPYING" "CONTRIBUTE" "configure.ac" "configure" "config.status" "config.log" "config.bat" "ChangeLog.2" "ChangeLog.1" "build-aux/" "BUGS" "autom4te.cache/" "autogen.sh" "admin/" "aclocal.m4" ".gitignore" ".gitattributes" ".git/" ".dir-locals.el" "../" "./")
+ ("/Users/cnliao/src/emacs/" (22491 24876 0 0) "test/" "src/" "README" "oldXMenu/" "nt/" "nextstep/" "msdos/" "modules/" "Makefile.in" "make-dist" "m4/" "lwlib/" "lisp/" "lib-src/" "lib/" "leim/" "INSTALL.REPO" "INSTALL" "info/" "GNUmakefile" "etc/" "doc/" "COPYING" "CONTRIBUTE" "configure.ac" "configure" "config.bat" "ChangeLog.2" "ChangeLog.1" "build-aux/" "BUGS" "autom4te.cache/" "autogen.sh" "admin/" "aclocal.m4" ".gitignore" ".gitattributes" ".git/" ".dir-locals.el" "../" "./")
+
+ ("/Users/cnliao/Nutstore/sync/ConFiles/osx/.emacs.d/" (22490 47086 0 0) "url/" "tramp" "tmp/" "srecode-map.el" "snippets/" "rtags.build~" "rtags.build" "rtags/" "recentf~" "recentf" "README.md" "LICENSE" "irony/" "init_mu4e.el~" "init_mu4e.el" "init_mode.el~" "init_mode.el" "init_misc.el~" "init_misc.el" "init_mail.el~" "init_mail.el" "init_keybinding.el~" "init_keybinding.el" "init_env.el~" "init_env.el" "init_appearance.el~" "init_appearance.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "ede-projects.el" "auto-save-list/" ".gitignore~" ".gitignore" ".git/" "../" "./")
 
  ("/Users/cnliao/.emacs.d/elpa/evil-20160827.1510/" (22488 42823 0 0) "version.info" "macros.info" "fdl-1.3.info" "evil.info" "evil.elc" "evil.el" "evil-vars.elc" "evil-vars.el" "evil-types.elc" "evil-types.el" "evil-states.elc" "evil-states.el" "evil-search.elc" "evil-search.el" "evil-repeat.elc" "evil-repeat.el" "evil-pkg.el" "evil-maps.elc" "evil-maps.el" "evil-macros.elc" "evil-macros.el" "evil-jumps.elc" "evil-jumps.el" "evil-integration.elc" "evil-integration.el" "evil-ex.elc" "evil-ex.el" "evil-digraphs.elc" "evil-digraphs.el" "evil-core.elc" "evil-core.el" "evil-common.elc" "evil-common.el" "evil-commands.elc" "evil-commands.el" "evil-command-window.elc" "evil-command-window.el" "evil-autoloads.el~" "evil-autoloads.el" "dir" "#evil-maps.el#" "../" "./")
 

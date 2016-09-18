@@ -3,8 +3,8 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
-
+;; (package-initialize)
+;; (profiler-start 'cpu)
 (load "~/.emacs.d/init_env.el")
 (load "~/.emacs.d/init_mode.el")
 (load "~/.emacs.d/init_mail.el")
@@ -19,7 +19,9 @@
  '(org-agenda-files (quote ("~/Nutstore/sync/note/all.org")))
  '(package-selected-packages
    (quote
-    (rtags rich-minority pdf-tools ido-vertical-mode flycheck fill-column-indicator evil disaster company-irony company-auctex auto-complete))))
+    (esup rtags rich-minority pdf-tools ido-vertical-mode flycheck fill-column-indicator evil disaster company-irony company-auctex auto-complete))))
+;; (profiler-report)
+;; (profiler-stop)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
